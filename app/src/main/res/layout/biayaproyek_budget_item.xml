@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+
+    <TextView
+        android:text="Biaya : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:id="@+id/textView50"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="16sp"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/textView44"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/harga_biayaproyek_budget_item"
+        android:layout_alignBaseline="@+id/textView50"
+        android:layout_alignBottom="@+id/textView50"
+        android:layout_toRightOf="@+id/textView54"
+        android:layout_width="150dp"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:text="Rp. "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView54"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="16sp"
+        android:layout_alignBaseline="@+id/harga_biayaproyek_budget_item"
+        android:layout_alignBottom="@+id/harga_biayaproyek_budget_item"
+        android:layout_toRightOf="@+id/textView44"
+        android:layout_toEndOf="@+id/textView44" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nama_biayaproyek_budget_item"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="16sp"
+        android:layout_alignBaseline="@+id/textView44"
+        android:layout_alignBottom="@+id/textView44"
+        android:layout_toRightOf="@+id/textView44"
+        android:layout_toEndOf="@+id/textView44" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/no_biayaproyek_budget_item"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="16sp"
+        android:layout_below="@+id/textView44"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Nama : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView44"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="16sp"
+        android:textStyle="normal|bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="SUNTING"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sunting_biayaproyek_budget_item"
+        android:background="@color/warnaku3"
+        android:layout_alignBaseline="@+id/no_biayaproyek_budget_item"
+        android:layout_alignBottom="@+id/no_biayaproyek_budget_item"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

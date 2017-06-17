@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:padding="15dp" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="BUDGET PRODUKSI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/budget_biayaproyek"
+            android:background="@color/warnaku4" />
+        <Button
+            android:layout_marginTop="10dp"
+            android:text="PEMBAYARAN JASA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pembayaranjasa_biayaproyek"
+            android:background="@color/warnaku4" />
+        <Button
+            android:layout_marginTop="10dp"
+            android:text="PEMBAYARAN MATERIAL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pembayaranmaterial_biayaproyek"
+            android:background="@color/warnaku4" />
+
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:text="TERMIN PEMBAYARAN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/termin_biayaproyek"
+            android:background="@color/warnaku4" />
+
+    </LinearLayout>
+</RelativeLayout>

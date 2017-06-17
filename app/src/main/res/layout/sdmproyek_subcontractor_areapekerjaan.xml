@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="15dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:text="Tes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/namapt_subcontractor_areapekerjaan"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="16sp"
+            android:textStyle="normal|bold" />
+
+        <ListView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:id="@+id/list_subcontractor_areapekerjaan"
+            android:divider="@color/warnaku1"
+            android:dividerHeight="1dp"
+            android:layout_height="404dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.69">
+
+            <Button
+                android:text="TAMBAH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tambah_subcontractor_areapekerjaan"
+                android:layout_weight="1"
+                android:background="@color/warnaku4" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

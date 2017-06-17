@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:padding="7dp"
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/teks_integrasi_keterangan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="5sp"
+                android:text="PT Biro Klasifikasi Indonesia (Persero) atau disingkat BKI adalah Badan Usaha Milik Negara Indonesia yang ditunjuk sebagai satu-satunya badan klasifikasi nasional untuk melakukan pengkelasan kapal niaga berbendara Indonesia maupun asing yang secara reguler beroperasi di perairan Indonesia. Biro Klasifikasi Indonesia (BKI) menjadi badan klasifikasi ke-4 di Asia setelah Jepang, China dan Korea, dan menjadi satu-satunya badan klasifikasi nasional yang bertugas untuk mengklaskan kapal-kapal niaga berbendera Indonesia dan kapa lberbendera asing yang secara reguler beroperasi di perairan Indonesia. Kegiatan klasifikasi BKI merupakan pengklasifikasian kapal berdasarkan konstruksi lambung, mesin dan listrik kapal dengan tujuan memberikan penilaian teknis atas laik tidaknya kapal tersebut untuk berlayar. Selain itu, BKI juga dipercaya oleh Pemerintah untuk melaksanakansurvei dan sertifikasi statutoria atas nama Pemerintah Republik Indonesia, antara lain Load Line, ISM Code dan ISPS Code. "
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

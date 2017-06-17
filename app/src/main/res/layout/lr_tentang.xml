@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:padding="7dp"
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/teks_integrasi_keterangan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="5sp"
+                android:text="Nama organisasi tersebut berasal dari rumah kopi abad ke-17 di London yang sering dikunjungi oleh pedagang, penjamin pelaksana laut, dan lainnya, semuanya terkait dengan pengiriman. Pemilik rumah kopi, Edward Lloyd, membantu mereka untuk bertukar informasi dengan menyebarkan selembar kertas berita yang dia dengar. Pada tahun 1760, Register Society dibentuk oleh pelanggan rumah kopi yang mengumpulkan Register of Shipping. Antara tahun 1800 dan 1833, perselisihan antara pemilik kapal dan penjamin emisi membuat mereka menerbitkan daftar masing-masing - &quot;Buku Merah&quot; dan &quot;Buku Hijau&quot;.Hal ini membawa kedua belah pihak ke ambang kebangkrutan. Kesepakatan dicapai pada tahun 1834 ketika mereka bersatu untuk membentuk Daftar Lloyd untuk Pengiriman Inggris dan Luar Negeri, membentuk Komite Umum dan nilai-nilai amal. Pada tahun 1914, dengan pandangan yang semakin luas, organisasi tersebut berganti nama menjadi Lloyd's Register of Shipping. Masyarakat mencetak Daftar Kapal Pertama pada tahun 1764 untuk memberi kedua penjamin dan merchant sebuah gagasan tentang kondisi kapal yang mereka pertaminkan dan sewa: lambung kapal dinilai dengan skala huruf (A menjadi yang terbaik), dan alat kelengkapan kapal ( Tiang, rigging, dan peralatan lainnya) dinilai dengan angka (1 adalah yang terbaik). Dengan demikian klasifikasi terbaik &quot;A1&quot;, dari mana ungkapan A1 atau A1 di Lloyd's diturunkan, pertama kali muncul dalam Register 1775-76. Register, dengan informasi tentang semua kapal selam, kapal dagang self-propelled dari 100 ton kotor atau lebih, diterbitkan setiap tahun. Sebuah kapal tetap terdaftar di Register Lloyd sampai dia tenggelam, hancur, diremukkan, atau dibuang. "
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

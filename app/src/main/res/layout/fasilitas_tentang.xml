@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:padding="7dp"
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+            android:id="@+id/teks_integrasi_keterangan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="5sp"
+            android:text="Sarana  adalah segala sesuatu yang dapat dipakai sebagai alat dalam mencapai maksud atau tujuan. Sedangkan prasarana adalah segala sesuatu yang merupakan penunjang utama terselenggaranya suatu proses (usaha, pembangunan, proyek). Untuk lebih memudahkan membedakan keduanya, sarana lebih ditujukan untuk benda-benda yang bergerak seperti komputer dan mesin-mesin, sedangkan prasarana lebih ditujukan untuk benda-benda yang tidak bergerak seperti gedung, ruang, dan tanah.
+Sarana dan prasarana juga mempunyai arti dan maksud yang sama dengan istilah perbekalan kantor. Tersedianya sarana dan prasarana yang cukup dengan kualitas yang baik, sangat dibutuhkan setiap organisasi dimanapun dalam penyelenggarakan kegiatannya untuk mencapai tujuan yang diharapkan. Tanpa adanya sarana dan prasarana, mustahil tujuan akan dicapai. Demikian halnya kantor, tempat berlangsungnya kegiatan yang berkaitan dengan pekerjaan ketatausahaan atau administrasi, juga sangat memerlukan sarana dan prasarana kantor. Bahkan tidak akan ada pekerjaan kantor yang tidak berkaitan dengan sarana dan prasarana kantor.
+Dengan banyaknya kebutuhan sarana dan prasarana, maka pengelolahan yang baik, efisien dan efektif mutlak diperlukan, mulai dari perencanaan, pelaksanaan hingga pengawasan. Tujuan pengelolaan sarana dan prasarana kantor adalah agar semua kegiatan yang berhubungan dengan perbekalan kantor baik yang bersifat administrasi maupun teknis operasional dapat dijalankan dengan baik dan efisien.
+"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

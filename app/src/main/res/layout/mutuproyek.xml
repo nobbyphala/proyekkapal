@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:padding="15dp" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="QA / QC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/qaqc_mutuproyek"
+            android:background="@color/warnaku4" />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:text="CHECK LIST"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checklist_mutuproyek"
+            android:background="@color/warnaku4" />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:text="REKAP CHECK LIST"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rekapchecklist_mutuproyek"
+            android:background="@color/warnaku4" />
+
+    </LinearLayout>
+</RelativeLayout>

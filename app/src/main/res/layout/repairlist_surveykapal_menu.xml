@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#ffffff">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="PM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pm_repairlist_surverykapal_menu"
+            android:background="@color/warnaku4" />
+
+        <Button
+            android:text="OS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/os_repairlist_surverykapal_menu"
+            android:background="@color/warnaku4"
+            android:layout_marginTop="15dp"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sdmproyek_subcontractor_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text="Nama PT :"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nama_subcontractor_detail"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+
+            <Button
+                android:layout_marginTop="15dp"
+                android:text="KOORDINATOR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/koordinator_subcontractor"
+                android:background="@color/warnaku4"/>
+
+            <Button
+                android:text="NAMA ANGGOTA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/anggota_subcontractor"
+                android:background="@color/warnaku4"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:text="AREA PEKERJAAN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/areapekerjaan_subcontractor"
+                android:layout_marginTop="15dp"
+                android:background="@color/warnaku4" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

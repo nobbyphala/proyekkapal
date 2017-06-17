@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ManajemenProyekReparasi</string>
+
+    <string-array name="kepada">
+        <item>Owner</item>
+        <item>OS/Konsultan</item>
+        <item>Project Manager</item>
+        <item>Class</item>
+        <item>ABK</item>
+        <item>Subcont</item>
+        <item>Vendor</item>
+    </string-array>
+</resources>

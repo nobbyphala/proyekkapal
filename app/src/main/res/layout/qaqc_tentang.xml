@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:padding="7dp"
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/teks_integrasi_keterangan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="5sp"
+                android:text="Quality Control atau biasa disingkat dengan QC artinya adalah pengendali mutu. QC sangatlah diperlukan dalam berbagai sektor industri, mulai dari manufaktur hingga produksi tangan. Tugas umum dari QC adalah memeriksa secara visual untuk menguji produk. Pemeriksaan produk dapat berlangsung sebelum, selama dan setelah proses produksi. Pengujian ini dilakukan secara manual, atau juga ada yang menggunakan bantuan teknologi. Tergantung sektor industri di mana QC tersebut bekerja, pada dasarnya QC melakukan pengecekan untuk menjamin mutu produk.
+Tidak hanya melakukan pemeriksaan saja, QC juga memiliki tanggung jawab dalam memantau dan menjalankan peralatan inspeksi. Selain itu juga merekam dan lalu menganalisis data kualitas dari produk yang diproduksi. Untuk lebih detailnya, pengertian Quality Control yaitu orang yang tugasnya meneliti produk selama, sebelum dan sesudah proses produksi. Tujuannya untuk memperoleh standar kualitas produk-produk yang sesuai dengan harapan. Tugas dari QC meliputi Monitoring, kemudian uji tes dan juga melakukan pemeriksaan secara menyeluruh. QC wajib memastikan bahwa standar kualitas sudah dipenuhi bagi setiap produk atau layanan dari perusahaan tersebut."
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

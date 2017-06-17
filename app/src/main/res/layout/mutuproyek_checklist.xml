@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/checklist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:text="PENGEDOKAN DAN PELAYANAN UMUM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pengedokanpelayanan_checklist"
+                android:background="@color/warnaku4" />
+
+            <Button
+                android:text="KONSTRUKSI BADAN KAPAL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/konstruksi_checklist"
+                android:background="@color/warnaku4"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:text="PERALATAN LAMBUNG DAN KELENGKAPANNYA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lambung_checklist"
+                android:background="@color/warnaku4"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:text="DECK OUTFITTING"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/deck_checklist"
+                android:background="@color/warnaku4"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:text="PERMESINAN DAN KELENGKAPAN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/permesinan_checklist"
+                android:background="@color/warnaku4"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:text="NAVIGATION EQUIPMENT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/navigation_checklist"
+                android:background="@color/warnaku4"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:text="SISTEM KELISTRIKAN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/listrik_checklist"
+                android:background="@color/warnaku4"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:text="PERALATAN KESELAMATAN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/keselamatan_checklist"
+                android:background="@color/warnaku4"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:text="TANGKI - TANGKI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tangki_checklist"
+                android:background="@color/warnaku4"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:text="PERPIPAAN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/perpipaan_checklist"
+                android:background="@color/warnaku4"
+                android:layout_marginTop="15dp"/>
+        </LinearLayout>
+    </ScrollView>
+    <ImageView
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        app:srcCompat="@drawable/searchbutton"
+        android:id="@+id/search_checklist"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+</RelativeLayout>

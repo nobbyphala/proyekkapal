@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:padding="7dp"
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+            android:id="@+id/teks_integrasi_keterangan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="5sp"
+            android:text="DNV GL adalah registrasi dan klasifikasi terakreditasi internasional yang berkantor pusat di dekat Oslo, Norwegia. Saat ini perusahaan memiliki sekitar 13.550 karyawan dan 350 kantor yang beroperasi di lebih dari 100 negara, dan menyediakan beberapa layanan untuk industri termasuk maritim, energi terbarukan, minyak and gas, elektrifikasi, makanan and minuman dan perawatan kesehatan. Perusahaan dibuat pada tahun 2013 sebagai hasil penggabungan antara dua organisasi terkemuka yaitu Det Norske Veritas (Norwegia) dan Germanischer Lloyd (Jerman).
+DNV GL adalah Perusahaan klasifikasi terbesar di dunia, memberikan layanan kepada 13.175 kapal dan unit lepas pantai (MOU) sebesar 265,4 gt, yang merupakan pangsa pasar global sebesar 21%. Ini juga merupakan konsultasi teknis dan pengawasan terbesar untuk energi terbarukan global (terutama angin, gelombang, pasang surut dan matahari) dan industri minyak and gas - 65% jaringan pipa lepas pantai dunia dirancang dan dipasang pada standar teknis DNV GL.
+Sebelum merger, DNV dan GL secara independen mengakuisisi beberapa perusahaan di berbagai sektor, seperti Hélimax Energy (Kanada), Garrad Hassan (Inggris), Windtest (Jerman) dan KEMA (Belanda), yang sekarang berkontribusi terhadap keahlian DNV GL di beberapa industri. . Selain menyediakan layanan seperti penilaian teknis, sertifikasi, manajemen risiko dan pengembangan perangkat lunak, DNV GL juga telah banyak berinvestasi dalam penelitian.
+"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

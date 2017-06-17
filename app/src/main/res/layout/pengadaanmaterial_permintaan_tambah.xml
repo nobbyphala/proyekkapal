@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Nama :"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView27"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/warnaku4"
+                android:textSize="16sp"
+                android:textStyle="normal|bold"
+                android:layout_weight="0.23" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/nama_permintaanmaterial_tambah"
+                android:layout_weight="0.87"
+                android:textColor="@android:color/background_dark"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.65">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Spesifikasi :"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView27"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/warnaku4"
+                android:textSize="16sp"
+                android:textStyle="normal|bold"
+                android:layout_weight="0.23" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/spesifikasi_permintaanmaterial_tambah"
+                android:layout_weight="0.87"
+                android:textColor="@android:color/background_dark"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Jumlah :"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView27"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/warnaku4"
+                android:textSize="16sp"
+                android:textStyle="normal|bold"
+                android:layout_weight="0.23" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/jumlah_permintaanmaterial_tambah"
+                android:layout_weight="0.87"
+                android:textColor="@android:color/background_dark"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Tanggal Dibutuhkan :"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:id="@+id/textView27"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/warnaku4"
+                android:textSize="16sp"
+                android:textStyle="normal|bold" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/tanggal_permintaanmaterial_tambah"
+                android:layout_weight="0.87"
+                android:textColor="@android:color/background_dark"
+                android:textSize="16sp"
+                android:inputType="date" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:text="TAMBAH"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:id="@+id/tambah_permintaanmaterial_tambah"
+            android:background="@color/warnaku3" />
+    </LinearLayout>
+
+</RelativeLayout>

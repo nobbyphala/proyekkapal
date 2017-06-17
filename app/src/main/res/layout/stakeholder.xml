@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="15dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:text="OWNER"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/owner_stakeholder"
+                android:background="@color/warnaku4"/>
+
+            <Button
+                android:text="OS / Konsultan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/konsultan_stakeholder"
+                android:background="@color/warnaku4"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:text="PROJECT MANAGER"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/projectmanager_stakeholder"
+                android:layout_marginTop="15dp"
+                android:background="@color/warnaku4" />
+
+            <Button
+                android:text="GALANGAN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/galangan_stakeholder"
+                android:layout_marginTop="15dp"
+                android:background="@color/warnaku4" />
+
+            <Button
+                android:text="CLASS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/class_stakeholder"
+                android:layout_marginTop="15dp"
+                android:background="@color/warnaku4" />
+
+            <Button
+                android:text="ABK"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/abk_stakeholder"
+                android:layout_marginTop="15dp"
+                android:background="@color/warnaku4" />
+
+            <Button
+                android:text="SUBCONT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/subcont_stakeholder"
+                android:layout_marginTop="15dp"
+                android:background="@color/warnaku4" />
+
+            <Button
+                android:text="VENDOR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/vendor_stakeholder"
+                android:layout_marginTop="15dp"
+                android:background="@color/warnaku4" />
+
+            <Button
+                android:text="PPC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ppc_stakeholder"
+                android:layout_marginTop="15dp"
+                android:background="@color/warnaku4" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

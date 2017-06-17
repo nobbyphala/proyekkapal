@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dokumen_edit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/background"
+    tools:context="widhimp.manajemenproyekreparasi.Komunikasi.KomunikasiEdit">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="@color/bg"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.39"
+                    android:text="Nama :"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/warnaku3"
+                    android:textSize="16sp"
+                    android:textStyle="normal|bold" />
+
+                <EditText
+                    android:id="@+id/nama_komunikasi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Nama Komunikasi"
+                    android:inputType="textPersonName"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.75"
+                    android:text="Dari :"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/warnaku3"
+                    android:textSize="16sp"
+                    android:textStyle="normal|bold" />
+
+                <EditText
+                    android:id="@+id/dari_komunikasi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Nama Pengirim"
+                    android:inputType="textPersonName"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.02">
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.38"
+                    android:text="Kepada :"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/warnaku3"
+                    android:textSize="16sp"
+                    android:textStyle="normal|bold" />
+
+                <EditText
+                    android:id="@+id/kepada_komunikasi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Nama Penerima"
+                    android:inputType="textPersonName"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.02">
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.41"
+                    android:text="Perihal :"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/warnaku3"
+                    android:textSize="16sp"
+                    android:textStyle="normal|bold" />
+
+                <EditText
+                    android:id="@+id/perihal_komunikasi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Perihal"
+                    android:inputType="textPersonName"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.02">
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.48"
+                    android:text="Tanggal :"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/warnaku3"
+                    android:textSize="16sp"
+                    android:textStyle="normal|bold" />
+
+                <EditText
+                    android:id="@+id/tanggal_komunikasi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.53"
+                    android:ems="10"
+                    android:hint="yyyy-mm-dd"
+                    android:inputType="date"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.02"
+                android:text="Catatan :"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/warnaku3"
+                android:textSize="16sp"
+                android:textStyle="normal|bold" />
+
+            <EditText
+                android:id="@+id/catatan_komunikasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Catatan"
+                android:inputType="textMultiLine"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.02"
+                android:text="Upload File :"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/warnaku3"
+                android:textSize="16sp"
+                android:textStyle="normal|bold" />
+
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_height="50dp"
+                app:srcCompat="@android:drawable/ic_menu_report_image"
+                android:id="@+id/gambar_komunikasiedit"
+                android:layout_width="100dp" />
+
+            <Button
+            android:text="Pilih File"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/pilihfile_komunikasi"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="@color/warnaku3"
+            android:textColor="@color/colorAccent" />
+
+            <Button
+                android:text="SIMPAN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/simpan_komunikasi"
+                android:layout_marginTop="10dp"
+                android:background="@color/warnaku4"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

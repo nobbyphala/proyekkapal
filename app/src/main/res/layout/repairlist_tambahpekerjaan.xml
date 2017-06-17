@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/repairlist_tambahpekerjaan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    tools:context="widhimp.manajemenproyekreparasi.RepairList.TambahPekerjaan">
+
+    <LinearLayout
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dari :"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@color/warnaku1"
+            android:textSize="16sp"
+            android:textStyle="normal|bold" />
+
+        <EditText
+            android:id="@+id/dari_tambahpekerjaan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nama"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kepada :"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@color/warnaku1"
+            android:textSize="16sp"
+            android:textStyle="normal|bold" />
+
+        <EditText
+            android:id="@+id/kepada_tambahpekerjaan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nama Dept. Tujuan"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Perihal Permintaan :"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@color/warnaku1"
+            android:textSize="16sp"
+            android:textStyle="normal|bold" />
+
+        <EditText
+            android:id="@+id/perihal_tambahpekerjaan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Perihal"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Catatan :"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@color/warnaku1"
+            android:textSize="16sp"
+            android:textStyle="normal|bold" />
+
+        <EditText
+            android:id="@+id/catatan_tambahpekerjaan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Catatan"
+            android:inputType="textMultiLine"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/kirim_tambahpekerjaan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/warnaku4"
+            android:text="KIRIM"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</RelativeLayout>

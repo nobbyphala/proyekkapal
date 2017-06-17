@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_inbox_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#ffffff"
+    tools:context="widhimp.manajemenproyekreparasi.InboxDetail">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text="Dari :"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView39"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="Dari :"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dari_inboxdetail"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="Perihal :"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView39"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="Perihal :"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/perihal_inboxdetail"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="Isi :"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView40"
+                android:textColor="@android:color/black"
+                android:textStyle="normal|bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="Isi :"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/isi_inboxdetail"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="File :"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView40"
+                android:textColor="@android:color/black"
+                android:textStyle="normal|bold"
+                android:textSize="16sp" />
+
+            <Button
+                android:text="DOWNLOAD"
+                android:layout_width="99dp"
+                android:layout_height="37dp"
+                android:id="@+id/download_inboxdetail"
+                android:background="@color/warnaku3"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

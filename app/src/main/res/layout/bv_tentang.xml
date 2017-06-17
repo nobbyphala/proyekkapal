@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:padding="7dp"
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+            android:id="@+id/teks_integrasi_keterangan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="5sp"
+            android:text="Dibentuk pada bulan Juni 1828 di Antwerp oleh penjamin emisi Alexandre Delehaye dan Louis van den Broek, dan broker asuransi Auguste Morel. Nama Bureau Veritas diadopsi pada tahun 1829. Ini termasuk adopsi sosok logo kebenaran yang dirancang oleh Achille Deveria. Perusahaan ini didirikan untuk tujuan awal mengumpulkan, memverifikasi dan menyediakan perusahaan asuransi maritim dengan informasi yang tepat dan terbaru mengenai kondisi kapal dan peralatan mereka di seluruh dunia. Pada awal abad ke-20, Biro Veritas terlibat dalam kegiatan baru: inspeksi bagian logam dan peralatan untuk industri kereta api dan kemudian untuk seluruh sektor industri dan juga konstruksi. Pada akhir abad ke-20, Biro Veritas memperluas ruang lingkupnya untuk mendirikan sistem inspeksi barang dagangan untuk barang-barang impor / ekspor sebelum dikirim dan untuk menyiapkan sertifikasi manajemen mutu. Pada awal abad ke-21, Biro Veritas menambahkan 2 bisnis baru untuk aktivitasnya: pengujian produk konsumen dan pengujian komoditas."
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+            <TextView
+                android:id="@+id/teks_integrasi_keterangan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="5sp"
+                android:text="Frank Piedelièvre memimpin Bureau Veritas antara tahun 1996 dan 2013, pertama sebagai Chief Executive Officer (1996-1999), kemudian sebagai Presiden and CEO (1999-2009), kemudian sebagai Chairman and CEO (2009-2012), kemudian sebagai Chairman ( 2012-2013). Di bawah kepemimpinannya, Bureau Veritas telah memiliki jumlah karyawannya dikalikan 7 (dari 8.000 menjadi 59.000) dan pendapatannya dikalikan 8 (dari EUR 455 juta sampai EUR 3.902 juta). Sejak Maret 2012, Didier Michaud-Daniel adalah Chief Executive Officer (CEO) Bureau Veritas. Perusahaan go public di Bursa Efek Paris (Paris Bourse) pada bulan Oktober 2007."
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

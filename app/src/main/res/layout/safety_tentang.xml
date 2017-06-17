@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:padding="7dp"
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+            android:id="@+id/teks_integrasi_keterangan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="5sp"
+            android:text="HSE (Health, Safety, Environment), atau di beberapa perusahaan juga disebut EHS, HES, SHE, K3LL (Keselamatan, Kesehatan Kerja dan Lindung Lingkungan), dan SSHE (Security, Safety, Health, Environment). Semua itu adalah suatu Departemen atau bagian dari Struktur Organisasi Perusahaan yang mempunyai fungsi pokok terhadap implementasi Sistem Manajemen Keselamatan dan Kesehatan Kerja (SMK3) mulai dari Perencanaan, Pengorganisasian, Penerapan dan Pengawasan serta Pelaporannya. Sementara, di Perusahaan yang mengeksploitasi Sumber Daya Alam ditambah dengan peran terhadap Lingkungan (Lindungan Lingkungan).
+Membicarakan HSE bukan sekedar mengetengahkan Issue seputar Hak dan Kewajiban, tetapi juga berdasarkan Output, yaitu korelasinya terhadap Produktivitas Karyawan. Belum lagi antisipasi kecelakaan kerja apabila terjadi Kasus karena kesalahan prosedur ataupun kesalahan pekerja itu sendiri. Oleh karena itu di setiap tempat kerja, harus ada professional yang yang memastikan pekerja berada di lingkungan yang aman (safe) dan tempat kerjanya merupakan tempat yang baik untuk melakukan pekerjaan mereka. Profesional ini biasanya disebut dengan occupational health and safety officer atau biasanya disebut safety officer yang bertugas memastikan bahwa rekan-rekan atau karyawan-karyawan aman di tempat kerja mereka. Occupational health and safety officer merupakan salah satu profesi yang tepat bagi seorang ergonom atau orang-orang yang memiliki latar belakang pendidikan di bidang tertentu."
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

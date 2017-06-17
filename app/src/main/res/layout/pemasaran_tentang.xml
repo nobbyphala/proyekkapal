@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:padding="7dp"
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/teks_integrasi_keterangan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="5sp"
+                android:text="Pemasaran atau marketing adalah suatu rangkaian kegiatan untuk memenuhi kebutuhan dan kepuasan konsumen. Caranya dengan membuat produk, menentukan harganya, tempat penjualannya dan mempromosikan produk tersebut kepada para konsumen. Atau definisi marketing yaitu perpaduan antara aktivitas-aktivitas yang saling berhubungan untuk dapat mengetahui apa yang dibutuhkan oleh konsumen sehingga perusahaan dapat mengembangkan produk, harga, pelayanan dan melakukan promosi supaya kebutuhan konsumen dapat terpenuhi serta perusahaan mendapatkan keuntungan. Itulah beberapa penjelasan mengenai marketing pilih yang mana saja karena semua intinya sama. Marketing memang sangat erat kaitannya dengan aktivitas kehidupan kita sehari-hari sebab objeknya ialah Konsumen. Biasanaya kita sebagai konsumen sering dihadapkan pada beberapa pilihan seperti memilih merek dari produk tertentu yang hendak kita beli, dimana kita akan membelinya dan menentukan waktu maupun kualitas saat melakukan pembelian. Jadi kita sebagai konsumen dapat dijadikan informasi yang dibutuhkan oleh para Marketer dalam melakukan kegiatan marketing."
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

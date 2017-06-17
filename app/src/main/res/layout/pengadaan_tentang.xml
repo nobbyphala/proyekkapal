@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:padding="7dp"
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+            android:id="@+id/teks_integrasi_keterangan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="5sp"
+            android:text="Purchasing adalah kegiatan pengadaan barang atau jasa untuk mencapai tujuan organisasi atau perusahaan. Tujuan utama dari purchasing department adalah untuk menjaga kualitas dan nilai dari produk perusahaan, meminimalisasikan perputaran modal yang dipakai untuk penyediaan stok barang, menjaga aliran barang masuk dan barang keluar, dan memperkuat daya saing organisasi atau perusahaan. Purchasing juga bisa dikatakan dalam penerimaan dan pemrosesan permintaan resmi (proses pembelian barang), membuat penawaran dan mencari barang, evaluasi penawaran,  pemeriksaan atas barang yang diterima dan mengawasi atas penyimpanan dan pemakaian yang tepat.
+Semua kegiatan produksi yang membutuhan bahan-bahan pokok untuk menunjang berjalannya aktivitas produksi, akan ditangani oleh departemen purchasing, dan department ini pun mempunyai system purchase order (PO)  dimana jika bahan bahan pokok produksi sudah semakin habis maka kita akan melakukan pemesanan bahan-bahan pokok ke tempat pemesanan yang telah dijadikan partner di perusahaan keihin Indonesia , selanjutnya jika bahan sudah selesai dipesan maka dilanjutkan ke bagian yang menangani payment voucher atau yang melakukan perhitungan  atas segala pesanan yang telah diorder.
+Setelah melakukan perhitungan selanjutnya akan berlanjut ke bagian accounting atau bagian yang dimana berhubungan dengan keuangan perusahaan. Jika bagian accounting sudah menerima payment voucher dari bagian purchasing maka bagian accounting akan melakukan pembayaran ke perusahaan atau ke tempat pemesanan bahan-bahan pokok yang telah di order sebelumnya.
+"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

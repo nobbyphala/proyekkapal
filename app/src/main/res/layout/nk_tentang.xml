@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:padding="7dp"
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+            android:id="@+id/teks_integrasi_keterangan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="5sp"
+            android:text="Nippon Kaiji Kyokai adalah lembaga klasifikasi kapal. Nippon Kaiji Kyokai ini juga dikenal dengan nama merek ‘ClassNK’ atau sering di industri hanya sebagai ‘NK’. Lembaga ini didedikasikan untuk menjamin keamanan hidup dan harta benda di laut, dan pencegahan pencemaran lingkungan laut.
+Pekerjaan utama staf ahli teknis dari lembaga ini adalah melakukan survei untuk memastikan bahwa peraturan yang telah dikembangkannya, diterapkan pada kapal yang baru dibangun dan yang sudah ada untuk memastikan keamanan kapal-kapal ini. Aturan tidak hanya mencakup struktur lambung, tapi juga peralatan keselamatan, peralatan penanganan kargo, mesin, sistem kelistrikan dan elektronik.
+Pada akhir Desember 2007, Serikat memiliki 6793 kapal dengan jumlah 152,22 juta GT di bawah kelas. Angka ini mewakili sekitar 20 persen armada pedagang dunia yanag saat ini berada di bawah kelas. Meski berbasis di Jepang, ClassNK memiliki perwakilan di seluruh dunia melalui jaringan kantor surveyor eksklusif. Surveyor ClassNK bekerja di galangan kapal baru dan reparasi serta di pelabuhan-pelabuhan di seluruh dunia, dimanapun mereka dipanggil untuk memeriksa kondisi kapal sehingga semua layanan masyarakat tersedia di seluruh dunia. Pada tanggal 15 November 1999, Nippon Kaiji Kyokai merayakan seratus tahun berdirinya. Pada tanggal 28 Mei 2012, ClassNK secara resmi mengumumkan bahwa daftar produknya telah melonjak melampaui 200 juta ton bruto menjadi lembaga kelas dunia dalam sejarah yang memiliki lebih dari 200 juta GT dalam daftar produknya.
+"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
